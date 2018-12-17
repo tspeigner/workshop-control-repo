@@ -1,5 +1,4 @@
 # Modules from the Puppet Forge
-mod 'WhatsARanjit/node_manager', '0.7.1'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples

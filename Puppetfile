@@ -1,4 +1,6 @@
 # Modules from the Puppet Forge
+mod 'puppetlabs-bolt_shim',     '0.1.1'
+mod 'puppetlabs-apply_helpers', '0.1.0'
 
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples

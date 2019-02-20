@@ -2,7 +2,7 @@ class profile::bolt_student::lin_packages {
 
 Package {ensure => latest,}
 
-$linpacks = [ 'unzip', 'git' ]
+$linpacks = lookup('profile::bolt_student::lin_packages::linpacks')
 
   package { $linpacks: }
   }

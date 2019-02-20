@@ -1,0 +1,4 @@
+---
+profile::bolt_student::win_packages:winpacks:
+  - 'unzip'
+  - 'git'

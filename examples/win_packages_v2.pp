@@ -1,4 +1,4 @@
-class profile::bolt_student::win_packages {
+class profile::boltstudent::win_packages {
 
 Package {ensure => latest, provider => chocolatey,}
 

@@ -1,4 +1,4 @@
 ---
-profile::bolt_student::lin_packages::linpacks:
+profile::boltstudent::lin_packages::linpacks:
   - '7zip'
   - 'git'

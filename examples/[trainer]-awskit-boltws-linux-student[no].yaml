@@ -2,3 +2,4 @@
 profile::boltstudent::lin_packages::linpacks:
   - '7zip'
   - 'git'
+  - 'nano'

@@ -1,5 +1,5 @@
 ---
-profile::boltstudent::win_packages:winpacks:
+boltstudent::win_packages:winpacks:
   - '7zip'
   - 'git'
   - 'notepadplusplus'

@@ -1,4 +1,4 @@
-class profile::boltstudent::lin_packages {
+class boltstudent::lin_packages {
 
 Package {ensure => latest,}
 

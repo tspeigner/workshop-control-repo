@@ -1,4 +1,5 @@
 ---
 profile::boltstudent::win_packages:winpacks:
-  - 'unzip'
+  - '7zip'
   - 'git'
+  - 'notepadplusplus'

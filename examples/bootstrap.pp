@@ -1,17 +1,4 @@
-class role::boltstudent::bootstrap {
+class profile::boltstudent::bootstrap {
   include ::profile::boltstudent::puppet_agent
-
-  # Determine which package class to use based on kernal type
-  case $::kernel {
-    'windows': {
-      include ::profile::boltstudent::win_packages
-    }
-    'Linux':   {
-      include ::profile::boltstudent::lin_packages
-    }
-    default: {
-      fail('Unsupported operating system!')
-
-    }
-  }
+  include ::profile::boltstudent::packages
 }

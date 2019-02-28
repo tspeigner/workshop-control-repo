@@ -1,5 +1,5 @@
 ---
-boltstudent::lin_packages::linpacks:
-  - '7zip'
-  - 'git'
-  - 'nano'
+base_apps::redhat:
+  - unzip
+  - git
+  - nano

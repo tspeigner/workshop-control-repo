@@ -1,4 +1,4 @@
 class role::boltstudent::bootstrap {
-  include boltstudent::puppet_agent
-  include boltstudent::packages
+  include profile::boltstudent::puppet_agent
+  include profile::boltstudent::packages
 }

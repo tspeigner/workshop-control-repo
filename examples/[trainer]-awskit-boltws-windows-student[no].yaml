@@ -1,5 +1,5 @@
 ---
-boltstudent::win_packages:winpacks:
-  - '7zip'
-  - 'git'
-  - 'notepadplusplus'
+base_apps::windows:
+  - 7zip
+  - git
+  - notepadplusplus

@@ -1,2 +1,10 @@
 ---
 message: "This node is using common data"
+
+base_apps::windows:
+  - 7zip
+  - git
+  
+base_apps::redhat:
+  - unzip
+  - git

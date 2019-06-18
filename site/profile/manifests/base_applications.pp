@@ -13,7 +13,7 @@ class profile::base_applications {
     }
   }
   package {$apps:
-    ensure  => installed,
-    provide => $provider,
+    ensure   => installed,
+    provider => $provider,
   }
 }

@@ -13,7 +13,8 @@ class profile::workshop_classification {
     environment => 'production',
     parent      => 'All Nodes',
     rule        => ['or',
-      ['=', 'name', 'master.inf.puppet.vm']
+      ['=', 'name', 'master.inf.puppet.vm'],
+      ['=', 'name', 'puppet.classroom.puppet.com'],
     ],
   }
 }
